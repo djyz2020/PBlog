@@ -43,7 +43,7 @@ public class RestApiController {
     private ZydWebsocketServer websocketServer;
 
     /**
-     * 上传文件到七牛云
+     * 上传文件到阿里云OSS
      *
      * @param file
      * @return

@@ -116,7 +116,7 @@ function initScrollMenu() {
     }
 }
 var PaymentUtils = window.payment || {
-    config: [{url: appConfig.staticPath + '/img/alipay_nb.jpg', desc: '支付宝转账'},{url: appConfig.staticPath + '/img/wechat_nb.jpg', desc: '微信转账'}],
+    config: [{url: appConfig.staticPath + '/img/zhifubao_reciever.jpg', desc: '支付宝转账'},{url: appConfig.staticPath + '/img/weixin_reciever.png', desc: '微信转账'}],
     show : function () {
         $("#reward").modal('show');
         this.change(0);
@@ -140,12 +140,8 @@ $(function () {
     initArticeMenu();
     initScrollMenu();
 
-    console.group("关于本站");
-    console.log("写博客、记日志、闲聊扯淡鼓捣技术\n志同道合者欢迎进QQ交流群（190886500）");
     console.groupEnd();
-    console.log("%c生活真他妈好玩，因为生活老他妈玩我！", "color:green;font-size:20px;font-weight:blod");
     console.groupEnd();
-    console.log("爱谁谁...");
 
     $('.to-top').toTop({
         autohide: true,//返回顶部按钮是否自动隐藏。可以设置true或false。默认为true
@@ -221,7 +217,7 @@ $(function () {
 
     $("img.lazy-img").lazyload({
         //placeholder : appConfig.staticPath + "/img/loading.gif",
-        placeholder : appConfig.staticPath + "/img/loading.gif",
+        placeholder : appConfig.staticPath + "/img/title.png",
         effect: "fadeIn",
         threshold: 100
     });

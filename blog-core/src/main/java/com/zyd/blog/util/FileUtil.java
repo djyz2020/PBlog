@@ -4,6 +4,8 @@ import com.zyd.blog.business.enums.QiniuUploadType;
 import com.zyd.blog.framework.exception.ZhydFileException;
 import com.zyd.blog.plugin.QiniuApi;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -22,6 +24,7 @@ import java.util.Arrays;
 @Slf4j
 public class FileUtil {
     private static final String[] PICTURE_SUFFIXS = {".jpg", ".jpeg", ".png", ".gif", ".bmp"};
+    private static Logger log = LoggerFactory.getLogger(FileUtil.class);
 
     /**
      * 删除目录，返回删除的文件数

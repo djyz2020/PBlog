@@ -416,7 +416,8 @@ $(document).ready(function () {
     });
 
     $("img.lazy-img").lazyload({
-        placeholder: appConfig.staticPath + "/img/loading.gif",
+        //placeholder: appConfig.staticPath + "/img/loading.gif",
+        placeholder : appConfig.staticPath + "/img/title.png",
         effect: "fadeIn",
         threshold: 100
     });

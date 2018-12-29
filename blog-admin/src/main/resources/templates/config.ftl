@@ -21,7 +21,7 @@
                                 <a href="#tab_praise" id="praise-tab" role="tab" data-toggle="tab" aria-expanded="true">赞赏码配置</a>
                             </li>
                             <li role="presentation">
-                                <a href="#tab_qiniu" id="qiniu-tab" role="tab" data-toggle="tab" aria-expanded="true">七牛云配置</a>
+                                <a href="#tab_qiniu" id="qiniu-tab" role="tab" data-toggle="tab" aria-expanded="true">阿里云OSS配置</a>
                             </li>
                             <li role="presentation" class="">
                                 <a href="#tab_contact" role="tab" id="contact-tab" data-toggle="tab" aria-expanded="false">联系方式</a>
@@ -167,31 +167,31 @@
                                 <form class="form-horizontal form-label-left" novalidate>
                                     <input type="hidden" name="id">
                                     <div class="item form-group">
-                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="qiniuAccessKey">七牛ACCESS_KEY <span class="required">*</span></label>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="qiniuAccessKey">阿里云OSS ACCESS_KEY <span class="required">*</span></label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <input type="text" class="form-control col-md-7 col-xs-12" name="qiniuAccessKey" id="qiniuAccessKey"
-                                                  required="required" placeholder="请输入七牛ACCESS_KEY"/>
+                                                  required="required" placeholder="请输入阿里云OSS ACCESS_KEY"/>
                                         </div>
                                     </div>
                                     <div class="item form-group">
-                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="qiniuSecretKey">七牛SECRET_KEY <span class="required">*</span></label>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="qiniuSecretKey">阿里云OSS SECRET_KEY <span class="required">*</span></label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <input type="text" class="form-control col-md-7 col-xs-12" name="qiniuSecretKey" id="qiniuSecretKey"
-                                                   required="required" placeholder="请输入七牛SECRET_KEY"/>
+                                                   required="required" placeholder="请输入阿里云OSS SECRET_KEY"/>
                                         </div>
                                     </div>
                                     <div class="item form-group">
-                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="qiniuBucketName">七牛BUCKET_NAME <span class="required">*</span></label>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="qiniuBucketName">阿里云OSS BUCKET_NAME <span class="required">*</span></label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <input type="text" class="form-control col-md-7 col-xs-12" name="qiniuBucketName" id="qiniuBucketName"
-                                                   required="required" placeholder="请输入七牛BUCKET_NAME"/>
+                                                   required="required" placeholder="请输入阿里云OSS BUCKET_NAME"/>
                                         </div>
                                     </div>
                                     <div class="item form-group">
-                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="qiuniuBasePath">七牛路径 <span class="required">*</span></label>
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="qiuniuBasePath">阿里云OSS路径 <span class="required">*</span></label>
                                         <div class="col-md-6 col-sm-6 col-xs-12">
                                             <input type="text" class="form-control col-md-7 col-xs-12" name="qiuniuBasePath" id="qiuniuBasePath"
-                                                   required="required" placeholder="请输入七牛路径"/>
+                                                   required="required" placeholder="请输入阿里云OSS路径"/>
                                         </div>
                                     </div>
                                     <div class="item form-group">
