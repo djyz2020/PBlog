@@ -129,7 +129,7 @@ ps: 虽然我知道，大部分人都是来了**直接下载源代码**后就潇
 - [https://blog.itourshare.net/](https://blog.itourshare.net/)
 - [码农擎天柱](http://blog.qinlei.vip/)
 - [陈晓雷的博客](http://blog.csxll.top)
-- [张海波的博客](https://www.foward.cn)
+- [张海波的博客](www.foward.cn)
 - 更多待续...
 
 烦请各位使用OneBlog的朋友，能留下你的网址（没别的意思，只是看看有多少人而已） - [点这儿](https://gitee.com/yadong.zhang/DBlog/issues/ILIAQ)
