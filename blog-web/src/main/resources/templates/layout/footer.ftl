@@ -24,6 +24,9 @@
                         <li><a class="pointer" rel="external nofollow"><span class="label label-info">Maven</span></a></li>
                         <li><a class="pointer" rel="external nofollow"><span class="label label-warning">Bootstrap</span></a></li>
                         <li><a class="pointer" rel="external nofollow"><span class="label label-danger">阿里云</span></a></li>
+                        <li><a class="pointer" rel="external nofollow"><span class="label label-success">SpringCloud</span></a></li>
+                        <li><a class="pointer" rel="external nofollow"><span class="label label-success">大数据</span></a></li>
+                        <li><a class="pointer" rel="external nofollow"><span class="label label-success">深度学习</span></a></li>
                     </ul>
                 </form>
             </div>

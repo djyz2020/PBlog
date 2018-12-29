@@ -44,8 +44,8 @@
                 <div class="alert alert-default alert-dismissible" role="alert" style="padding: 0px;">
                     <ul>
                         <li><i class="fa fa-lightbulb-o fa-fw"></i> 随便留言，只要不是反人类、反国家的危险言论。<strong>相信我！删除真的只需要1秒！</strong></li>
-                        <li><i class="fa fa-lightbulb-o fa-fw"></i> 欢迎各种花式留言！e.g.<code>System.out.println("突如其来的骚，闪了老子的腰！");</code></li>
-                        <li><i class="fa fa-heartbeat fa-fw"></i> <strong>爱谁谁...</strong></li>
+                        <li><i class="fa fa-lightbulb-o fa-fw"></i> 欢迎各种花式留言！</li>
+                        <#--<li><i class="fa fa-heartbeat fa-fw"></i> <strong>爱谁谁...</strong></li>-->
                     </ul>
                 </div>
             </div>

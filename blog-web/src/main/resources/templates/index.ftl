@@ -13,15 +13,16 @@
         <div id="scrolldiv">
             <div class="scrolltext">
                 <ul class="list-unstyled" id="notice-box">
-                    <li class="scrolltext-title">
+                    <#--<li class="scrolltext-title">
                         <a href="javascript:void(0)" rel="bookmark">本站正式启用新域名:
-                            <a href="http://foward.cn" target="_blank"><strong>http://foward.cn</strong></a></a>
+                            <a href="/" target="_blank"><strong>www.foward.cn</strong></a>
+                        </a>
+                    </li>-->
+                    <li class="scrolltext-title">
+                        <a href="javascript:void(0)" rel="bookmark">每天进步一点点，总有破茧成蝶的那一天。</a>
                     </li>
                     <li class="scrolltext-title">
-                        <a href="javascript:void(0)" rel="bookmark">活了二十多年，没能为祖国、为人民做点什么，每思及此，伤心欲绝。</a>
-                    </li>
-                    <li class="scrolltext-title">
-                        <a href="javascript:void(0)" rel="bookmark">其实我们可以将所有的问题归结为两种：一种是没饭吃饿出来的；一种是吃饱了撑出来的。</a>
+                        <a href="javascript:void(0)" rel="bookmark">别忘了努力，别忘了进步，别忘了感恩，更别忘了陪你春夏秋冬的那个人。</a>
                     </li>
                 </ul>
             </div>
@@ -131,6 +132,9 @@
                             <li><a class="pointer" rel="external nofollow"><span class="label label-info">Maven</span></a></li>
                             <li><a class="pointer" rel="external nofollow"><span class="label label-warning">Bootstrap</span></a></li>
                             <li><a class="pointer" rel="external nofollow"><span class="label label-danger">阿里云</span></a></li>
+                            <li><a class="pointer" rel="external nofollow"><span class="label label-success">SpringCloud</span></a></li>
+                            <li><a class="pointer" rel="external nofollow"><span class="label label-success">大数据</span></a></li>
+                            <li><a class="pointer" rel="external nofollow"><span class="label label-success">深度学习</span></a></li>
                         </ul>
                     </form>
                 </article>
