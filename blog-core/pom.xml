@@ -174,11 +174,11 @@
             <artifactId>hibernate-validator</artifactId>
             <version>6.0.9.Final</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.tomcat.embed</groupId>
-            <artifactId>tomcat-embed-core</artifactId>
-            <version>8.5.29</version>
-        </dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-core</artifactId>
+			<version>9.0.14</version>
+		</dependency>
         <dependency>
             <groupId>com.zyd</groupId>
             <artifactId>blog-spider</artifactId>
