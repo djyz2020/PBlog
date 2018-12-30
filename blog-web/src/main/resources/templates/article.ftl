@@ -122,11 +122,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="blog-body">
+            <#--<div class="blog-body">
                 <a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wylo59db&utm_source=wylo59db" target="_blank" rel="external nofollow">
                     <img src="${config.staticWebSite}/img/ad/aliyun_sale1000-60.png" alt="阿里云首购8折" class="img-responsive">
                 </a>
-            </div>
+            </div>-->
             <div class="blog-body prev-next">
                 <nav class="nav-single wow" data-wow-delay="0.3s">
                     <#if other.prev>
@@ -149,7 +149,7 @@
                             </span>
                         </a>
                     <#else >
-                        <a href="${config.siteUrl}/article/1" rel="nofollow next">
+                        <a href="${config.siteUrl}/article/3" rel="nofollow next">
                             <span class="meta-nav" data-original-title="已经到最后一篇了" data-toggle="tooltip" data-placement="bottom"><span class="post-nav">下一篇 <i class="fa fa-angle-right"></i></span>
                                 <br>已经到最后一篇了
                             </span>
