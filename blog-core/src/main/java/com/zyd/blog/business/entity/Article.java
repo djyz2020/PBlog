@@ -74,12 +74,12 @@ public class Article {
     }
 
     public boolean getIsMarkdown() {
-        Boolean value = this.bizArticle.getIsMarkdown();
+        Boolean value = this.bizArticle.getMarkdown();
         return null == value ? false : value;
     }
 
     public void setIsMarkdown(boolean isMarkdown) {
-        this.bizArticle.setIsMarkdown(isMarkdown);
+        this.bizArticle.setMarkdown(isMarkdown);
     }
 
     public String getContent() {

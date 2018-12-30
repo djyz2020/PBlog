@@ -18,13 +18,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
-
 import java.util.List;
 import java.util.Map;
 
 /**
  * 页面跳转类
- *
  * @author yadong.zhang (yadong.zhang0415(a)gmail.com)
  * @version 1.0
  * @website https://www.zhyd.me
@@ -50,7 +48,6 @@ public class RenderController {
 
     /**
      * 加载首页的数据
-     *
      * @param vo
      * @param model
      * @return
@@ -65,7 +62,6 @@ public class RenderController {
 
     /**
      * 首页
-     *
      * @param vo
      * @param model
      * @return
@@ -75,13 +71,11 @@ public class RenderController {
     public ModelAndView home(ArticleConditionVO vo, Model model) {
         model.addAttribute("url", INDEX_URL);
         loadIndexPage(vo, model);
-
         return ResultUtil.view(INDEX_URL);
     }
 
     /**
      * 首页（分页）
-     *
      * @param pageNumber
      * @param vo
      * @param model
@@ -99,7 +93,6 @@ public class RenderController {
 
     /**
      * 分类列表
-     *
      * @param typeId
      * @param model
      * @return
@@ -117,7 +110,6 @@ public class RenderController {
 
     /**
      * 分类列表（分页）
-     *
      * @param typeId
      * @param pageNumber
      * @param model
@@ -137,7 +129,6 @@ public class RenderController {
 
     /**
      * 标签列表
-     *
      * @param tagId
      * @param model
      * @return
@@ -155,7 +146,6 @@ public class RenderController {
 
     /**
      * 标签列表（分页）
-     *
      * @param tagId
      * @param pageNumber
      * @param model
@@ -175,7 +165,6 @@ public class RenderController {
 
     /**
      * 文章详情
-     *
      * @param model
      * @param articleId
      * @return
@@ -198,7 +187,6 @@ public class RenderController {
 
     /**
      * 关于
-     *
      * @return
      */
     @GetMapping("/about")
@@ -209,7 +197,6 @@ public class RenderController {
 
     /**
      * 友情链接
-     *
      * @param model
      * @return
      */
@@ -222,7 +209,6 @@ public class RenderController {
 
     /**
      * 留言板
-     *
      * @return
      */
     @GetMapping("/guestbook")
@@ -233,7 +219,6 @@ public class RenderController {
 
     /**
      * 归档目录
-     *
      * @param model
      * @return
      */
@@ -247,7 +232,6 @@ public class RenderController {
 
     /**
      * 免责声明
-     *
      * @return
      */
     @GetMapping("/disclaimer")
@@ -258,7 +242,6 @@ public class RenderController {
 
     /**
      * 站长推荐
-     *
      * @param model
      * @return
      */
@@ -271,7 +254,6 @@ public class RenderController {
 
     /**
      * 更新日志
-     *
      * @param model
      * @return
      */
@@ -284,7 +266,6 @@ public class RenderController {
 
     /**
      * 测试websocket
-     *
      * @return
      */
     @GetMapping("/testWebsocket")

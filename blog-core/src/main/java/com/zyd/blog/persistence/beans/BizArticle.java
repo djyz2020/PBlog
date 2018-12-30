@@ -202,4 +202,6 @@ public class BizArticle extends AbstractDO {
     public void setLoveCount(Integer loveCount) {
         this.loveCount = loveCount;
     }
+
+
 }

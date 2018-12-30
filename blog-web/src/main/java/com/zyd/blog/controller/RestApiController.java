@@ -20,6 +20,8 @@ import com.zyd.blog.framework.object.ResponseVO;
 import com.zyd.blog.util.RestClientUtil;
 import com.zyd.blog.util.ResultUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.BindingResult;
@@ -45,6 +47,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api")
 public class RestApiController {
+    private Logger log = LoggerFactory.getLogger(RestApiController.class);
 
     @Autowired
     private SysLinkService sysLinkService;

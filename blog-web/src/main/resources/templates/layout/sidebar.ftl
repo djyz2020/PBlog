@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="css/d-audio.css">
+<script src="js/d-audio.js"></script>
 <div class="col-sm-3 blog-sidebar">
     <#if articleDetail?exists>
         <div class="sidebar-module">
@@ -9,7 +11,9 @@
     <#else>
         <div class="sidebar-module" style="position: relative;">
             <#--<a href='https://gitee.com/yadong.zhang/DBlog' target="_blank" rel="external nofollow"><img src='https://gitee.com/yadong.zhang/DBlog/widgets/widget_1.svg?color=07b83f' alt='Fork me on Gitee' style="position: absolute;right: 0;"/></a>-->
-            <h5 class="sidebar-title"><i class="fa fa-home icon"></i><strong>关于我</strong></h5>
+            <h5 class="sidebar-title">
+                <i class="fa fa-home icon"></i><strong>关于我</strong>
+            </h5>
             <div class="widget">
                 <div id="feed_widget">
                     <div class="feed-about">
@@ -159,4 +163,12 @@
             </@zhydTag>
         </ul>
     </div>
+    <div class="clear"></div>
+    <ul class="sidebar-module">
+        <h5 class="sidebar-title"><i class="fa fa-music icon"></i><strong>网站音乐</strong></h5>
+        <ul class="ul-default">
+           <li><div class="d-audio"></div></li>
+        </ul>
+    </div>
 </div>
+<script src="js/zhb.js"></script>

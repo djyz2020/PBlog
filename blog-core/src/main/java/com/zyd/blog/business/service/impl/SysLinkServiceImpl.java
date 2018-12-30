@@ -17,6 +17,8 @@ import com.zyd.blog.persistence.beans.SysLink;
 import com.zyd.blog.persistence.mapper.SysLinkMapper;
 import com.zyd.blog.util.HtmlUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -38,6 +40,7 @@ import java.util.*;
 @Slf4j
 @Service
 public class SysLinkServiceImpl implements SysLinkService {
+    Logger log = LoggerFactory.getLogger(SysLinkServiceImpl.class);
 
     @Autowired
     private SysLinkMapper sysLinkMapper;

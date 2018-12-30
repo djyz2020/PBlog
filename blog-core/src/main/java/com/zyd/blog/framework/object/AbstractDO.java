@@ -25,7 +25,6 @@ public abstract class AbstractDO implements Serializable {
      */
     private static final long serialVersionUID = 5088697673359856350L;
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

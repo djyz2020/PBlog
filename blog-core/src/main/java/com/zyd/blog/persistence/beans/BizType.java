@@ -23,10 +23,72 @@ public class BizType extends AbstractDO {
     private Integer sort;
     private Boolean available;
     private String icon;
-
-
     @Transient
     private BizType parent;
     @Transient
     private List<BizType> nodes;
+
+    public Long getPid() {
+        return pid;
+    }
+
+    public void setPid(Long pid) {
+        this.pid = pid;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Integer getSort() {
+        return sort;
+    }
+
+    public void setSort(Integer sort) {
+        this.sort = sort;
+    }
+
+    public Boolean getAvailable() {
+        return available;
+    }
+
+    public void setAvailable(Boolean available) {
+        this.available = available;
+    }
+
+    public String getIcon() {
+        return icon;
+    }
+
+    public void setIcon(String icon) {
+        this.icon = icon;
+    }
+
+    public BizType getParent() {
+        return parent;
+    }
+
+    public void setParent(BizType parent) {
+        this.parent = parent;
+    }
+
+    public List<BizType> getNodes() {
+        return nodes;
+    }
+
+    public void setNodes(List<BizType> nodes) {
+        this.nodes = nodes;
+    }
 }
