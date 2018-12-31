@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="css/d-audio.css">
-<script src="js/d-audio.js"></script>
+<script type="text/javascript" src="js/d-audio.js"></script>
 <div class="col-sm-3 blog-sidebar">
     <#if articleDetail?exists>
         <div class="sidebar-module">
@@ -171,4 +170,4 @@
         </ul>
     </div>
 </div>
-<script src="js/zhb.js"></script>
+<script type="text/javascript" src="js/zhb.js"></script>

@@ -217,7 +217,7 @@ $(function () {
 
     $("img.lazy-img").lazyload({
         //placeholder : appConfig.staticPath + "/img/loading.gif",
-        placeholder : appConfig.staticPath + "/img/title.png",
+        placeholder : "https://pblog-bucket.oss-cn-shenzhen.aliyuncs.com/article_title.png",
         effect: "fadeIn",
         threshold: 100
     });

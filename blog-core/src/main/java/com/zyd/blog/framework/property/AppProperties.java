@@ -33,4 +33,20 @@ public class AppProperties {
     @DateTimeFormat(pattern = DateConst.YYYY_MM_DD_HH_MM_SS_EN)
     private Date buildWebsiteDate = Date.from(LocalDate.of(2018,1,1).atStartOfDay(ZoneId.systemDefault()).toInstant());
 
+    public boolean isEnableKaptcha() {
+        return enableKaptcha;
+    }
+
+    public void setEnableKaptcha(boolean enableKaptcha) {
+        this.enableKaptcha = enableKaptcha;
+    }
+
+    public Date getBuildWebsiteDate() {
+        return buildWebsiteDate;
+    }
+
+    public void setBuildWebsiteDate(Date buildWebsiteDate) {
+        this.buildWebsiteDate = buildWebsiteDate;
+    }
+
 }
