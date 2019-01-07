@@ -7,4 +7,3 @@
     <link href="https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
     <link href="${config.staticWebSite}/css/zhyd.core.css" rel="stylesheet" type="text/css">
     <link href="${config.staticWebSite}/css/zhyd.comment.css" rel="stylesheet" type="text/css">
-    <link href="${config.staticWebSite}/css/d-audio.css" rel="stylesheet" type="text/css">

@@ -1,4 +1,5 @@
-<script type="text/javascript" src="js/d-audio.js"></script>
+<#--<link href="${config.staticWebSite}/css/d-audio.css" rel="stylesheet" type="text/css">-->
+<#--<script type="text/javascript" src="${config.siteUrl}/js/d-audio.js"></script>-->
 <div class="col-sm-3 blog-sidebar">
     <#if articleDetail?exists>
         <div class="sidebar-module">
@@ -162,12 +163,12 @@
             </@zhydTag>
         </ul>
     </div>
-    <div class="clear"></div>
+    <#--<div class="clear"></div>
     <ul class="sidebar-module">
         <h5 class="sidebar-title"><i class="fa fa-music icon"></i><strong>网站音乐</strong></h5>
         <ul class="ul-default">
            <li><div class="d-audio"></div></li>
         </ul>
-    </div>
+    </div>-->
 </div>
-<script type="text/javascript" src="js/zhb.js"></script>
+<#--<script type="text/javascript" src="${config.siteUrl}/js/zhb.js"></script>-->

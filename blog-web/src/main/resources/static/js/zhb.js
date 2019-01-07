@@ -15,8 +15,7 @@ function endFunc(){
 }
 function nextFunc(){
     var count = (index + 1) % 3;
-    myAudio.checkAudio(musicList[index].src, musicList[index].imageurl,
-        musicList[index].name, musicList[index].singer);
+    myAudio.checkAudio(musicList[index].src, musicList[index].imageurl, musicList[index].name, musicList[index].singer);
     index = count;
 }
 var myAudio = new Daudio({
@@ -26,7 +25,7 @@ var myAudio = new Daudio({
         name: musicList[index].name, 						// 音乐名字
         singer: musicList[index].singer, 					// 音乐歌手
         showprogress: true, 								// 是否显示进度信息
-        initstate: '', 								// '' 就是默认状态， cricle则是初始化就是圆形且可以旋转
+        initstate: '', 								        // '' 就是默认状态， cricle则是初始化就是圆形且可以旋转
         loop: false, 										// 是否循环
         ended: endFunc,
         next: nextFunc                                      // 音乐下一曲的点击事件触发，需要配合checkAudio体现切歌的效果

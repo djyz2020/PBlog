@@ -241,7 +241,7 @@ CREATE TABLE `sys_config` (
 -- ----------------------------
 -- Records of sys_config
 -- ----------------------------
-INSERT INTO `sys_config` VALUES ('1', '大步向前博客，使用springboot开发，前端使用Bootstrap，支持移动端自适应，配有完备的前台和后台管理功能。', '大步向前,开源博客', 'foward.cn', 'localhost:8085', 'localhost:8443', '大步向前博客', '大步向前博客', 'localhost:8443/img/favicon.ico', 'localhost:8443', '张海波', '1213768756@qq.com', 'https://static.zhyd.me/static/img/wechat_account.jpg', '843977358', 'http://weibo.com/211230415', 'https://github.com/zhangyd-c', 0, '2018-11-11 11:11:11', 1, 'http://pe6duqm84.bkt.clouddn.com/', NULL, NULL, NULL, NULL, 'qrcode/wx_code.png', 'qrcode/zfb_code.png', 'NwHaYlGalDEpgxm46xBaC3T9', '2018-01-19 23:07:52', '2018-08-28 22:33:25');
+INSERT INTO `sys_config` VALUES ('1', '大步向前博客，使用springboot开发，前端使用Bootstrap，支持移动端自适应，配有完备的前台和后台管理功能。', '大步向前,开源博客', 'foward.cn', 'localhost:8085', 'localhost:8443', '大步向前博客', '大步向前博客', 'localhost:8443/img/favicon.ico', 'localhost:8443', '张海波', '1213768756@qq.com', 'https://www.foward.cn/static/img/wechat_account.jpg', '843977358', 'http://weibo.com/211230415', 'https://github.com/zhangyd-c', 0, '2018-11-11 11:11:11', 1, 'http://pe6duqm84.bkt.clouddn.com/', NULL, NULL, NULL, NULL, 'qrcode/wx_code.png', 'qrcode/zfb_code.png', 'NwHaYlGalDEpgxm46xBaC3T9', '2018-01-19 23:07:52', '2018-08-28 22:33:25');
 
 -- ----------------------------
 -- Table structure for sys_link
@@ -267,8 +267,8 @@ CREATE TABLE `sys_link` (
 -- ----------------------------
 -- Records of sys_link
 -- ----------------------------
-INSERT INTO `sys_link` VALUES ('1', 'https://www.zhyd.me', '张海波博客', '一个程序员的个人博客', 'yadong.zhang0415@gmail.com', null, 'https://static.zhyd.me/static/img/favicon.ico', '1', '1', null, 'ADMIN', '2016-11-16 23:32:03', '2018-01-23 11:27:19');
-INSERT INTO `sys_link` VALUES ('13', 'http://tool.zhyd.me', '在线工具', '在线工具，只做最有用、最简单、最干净、最方便的工具网站。', 'yadong.zhang0415@gmail.com', null, 'https://static.zhyd.me/static/img/favicon.ico', '1', '1', null, 'ADMIN', '2017-05-04 11:22:29', '2017-05-09 09:11:35');
+INSERT INTO `sys_link` VALUES ('1', 'https://www.zhyd.me', '张海波博客', '一个程序员的个人博客', 'yadong.zhang0415@gmail.com', null, 'https://www.foward.cn/static/img/favicon.ico', '1', '1', null, 'ADMIN', '2016-11-16 23:32:03', '2018-01-23 11:27:19');
+INSERT INTO `sys_link` VALUES ('13', 'http://tool.zhyd.me', '在线工具', '在线工具，只做最有用、最简单、最干净、最方便的工具网站。', 'yadong.zhang0415@gmail.com', null, 'https://www.foward.cn/static/img/favicon.ico', '1', '1', null, 'ADMIN', '2017-05-04 11:22:29', '2017-05-09 09:11:35');
 INSERT INTO `sys_link` VALUES ('35', 'http://music.zhyd.me', '我的音乐馆', '我的音乐馆', 'yadong.zhang0415@gmail.com', null, 'http://music.zhyd.me/images/favicon.ico', '1', '1', null, 'ADMIN', '2018-04-19 20:01:35', '2018-04-19 20:01:35');
 
 -- ----------------------------
@@ -591,7 +591,7 @@ CREATE TABLE `sys_user` (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES ('1', 'root', 'CGUx1FN++xS+4wNDFeN6DA==', '超级管理员', '15151551516', '843977358@qq.com', '843977358', null, null, 'https://static.zhyd.me/static/img/favicon.ico', 'ROOT', null, null, null, 'ZHYD', null, null, '0', '0', null, '0:0:0:0:0:0:0:1', '2018-05-22 11:14:19', '177', null, '1', '2018-01-02 09:32:15', '2018-05-22 11:14:19');
+INSERT INTO `sys_user` VALUES ('1', 'root', 'CGUx1FN++xS+4wNDFeN6DA==', '超级管理员', '15151551516', '843977358@qq.com', '843977358', null, null, 'https://www.foward.cn/static/img/favicon.ico', 'ROOT', null, null, null, 'ZHYD', null, null, '0', '0', null, '0:0:0:0:0:0:0:1', '2018-05-22 11:14:19', '177', null, '1', '2018-01-02 09:32:15', '2018-05-22 11:14:19');
 INSERT INTO `sys_user` VALUES ('2', 'admin', 'gXp2EbyZ+sB/A6QUMhiUJQ==', '管理员', '15151551516', '843977358@qq.com', '843977358', null, null, null, 'ADMIN', null, null, null, 'ZHYD', '1', '1', '0', '0', '0:0:0:0:0:0:0:1', '0:0:0:0:0:0:0:1', '2018-05-22 10:54:18', '2', null, '1', '2018-01-02 15:56:34', '2018-05-22 10:54:18');
 INSERT INTO `sys_user` VALUES ('3', 'comment-admin', 'x9qCx3yP05yWfIE5wXbCsg==', '评论审核管理员', '', '', '', null, null, null, 'ADMIN', null, null, null, 'ZHYD', '1', '1', '0', '0', '0:0:0:0:0:0:0:1', '0:0:0:0:0:0:0:1', '2018-05-22 11:43:45', '1', null, '1', '2018-05-22 11:43:22', '2018-05-22 11:43:45');
 
