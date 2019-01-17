@@ -55,3 +55,7 @@ braum:
             threshold: 15
             interval: 5000
 ####################################自定义配置##########################################
+# ocr百度文字识别
+APP_ID: 15432144
+API_KEY: cHM1hkTxaBsyoxzEddgcfq5f
+SECRET_KEY: tfOaDqGANbG6aKx36EZPe5gPEk5ScXUk

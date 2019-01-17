@@ -24,6 +24,18 @@
 			<groupId>com.zyd</groupId>
 			<artifactId>blog-core</artifactId>
         </dependency>
+		<!-- JSON -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180813</version>
+		</dependency>
+		<!-- 百度文字识别SDK -->
+		<dependency>
+			<groupId>com.baidu.aip</groupId>
+			<artifactId>java-sdk</artifactId>
+			<version>4.6.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
