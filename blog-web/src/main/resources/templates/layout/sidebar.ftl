@@ -1,5 +1,5 @@
 <link href="${config.staticWebSite}/css/d-audio.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="${config.siteUrl}/js/d-audio.js"></script>
+<script type="text/javascript" src="${config.staticWebSite}/js/d-audio.js"></script>
 <div class="col-sm-3 blog-sidebar">
     <#if articleDetail?exists>
         <div class="sidebar-module">
@@ -178,7 +178,7 @@
 </div>
 
 </div>
-<script type="text/javascript" src="${config.siteUrl}/js/zhb.js"></script>
+<script type="text/javascript" src="${config.staticWebSite}/js/zhb.js"></script>
 <script type="text/javascript">
     function openImage2Text(){
         window.open("${config.siteUrl}/ocr", "_blank");
